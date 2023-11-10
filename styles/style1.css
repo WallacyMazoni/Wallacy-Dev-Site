@@ -4,7 +4,7 @@
 }
 
 a{
-    color: #fff;
+    color: #71f077;
     text-decoration: none;
     transition: 0.3s;
 }
@@ -17,6 +17,7 @@ a:hover{
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
+    color: chartreuse;
 }
 
 nav{
@@ -31,4 +32,14 @@ main{
     background: url("/src/bg.jpg") no-repeat center center;
     background-size: cover;
     height: 92vh;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
 }
