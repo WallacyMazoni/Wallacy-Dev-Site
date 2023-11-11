@@ -86,6 +86,9 @@
     .mobile-menu {
       display: block;
     }
+    footer{
+      position:absolute;
+    }
   }
 
   footer{
@@ -98,7 +101,7 @@
     height: 50px;
     margin: auto;
     bottom: 0;
-    position:fixed;;
+    position:fixed;
     padding: 8px;
   }
   
