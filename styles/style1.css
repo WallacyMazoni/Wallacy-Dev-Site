@@ -35,6 +35,7 @@
     background-size: cover;
     background-color: #23232e;
     height: 92vh;
+    overflow-x: hidden;
   }
   
   .nav-list {
@@ -62,6 +63,9 @@
   }
   
   @media (max-width: 999px) {
+    .main{
+      overflow-x: hidden;
+    }
     .nav-list {
       position: absolute;
       top: 8vh;
@@ -197,6 +201,7 @@
 
   .tittle-2{
     margin-top: 48px;
+    text-transform: uppercase;
     color: antiquewhite;
   }
 
