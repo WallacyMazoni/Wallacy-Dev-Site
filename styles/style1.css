@@ -33,6 +33,7 @@
   main {
     background: url("/src/bg.jpg") no-repeat center center;
     background-size: cover;
+    background-color: #23232e;
     height: 92vh;
   }
   
@@ -158,4 +159,28 @@
     display: flex;
     align-content: center;
     justify-content: space-around;
+  }
+
+  .principal-section-text{
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    padding-top: 80px;
+    padding-bottom: 400px;
+    justify-content: center;
+    font-size:xx-large;
+  }
+
+  .simple-divisor{
+    background-color: #23232e;
+    color: #23232e;
+  }
+
+  .dark-color{
+    color: #23232e;
+    background-color: #23232e;
+  }
+
+  .second-div{
+    background: url("/src/bg-2.jpg") no-repeat center center;
+    background-size: cover;
+    height: 92vh;
   }
