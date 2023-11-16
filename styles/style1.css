@@ -95,7 +95,7 @@
       
     }
     .main-section{
-      padding: 0px;
+      padding: 60px;
       display: flex;
       flex-direction: column;
       align-content: center;
@@ -155,17 +155,18 @@
   }
 
   .main-section{
-    padding: 48px;
+    padding-top: 48px;
     display: flex;
+    flex-direction: column;
     align-content: center;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: center;
   }
 
   .principal-section-text{
     font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     padding-top: 80px;
-    padding-bottom: 400px;
-    justify-content: center;
+    margin-bottom: 40px;
     font-size:xx-large;
   }
 
@@ -174,9 +175,13 @@
     color: #23232e;
   }
 
-  .dark-color{
-    color: #23232e;
-    background-color: #23232e;
+  .button-green{
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 280px;
+    background-color: #55ff4c;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
   }
 
   .second-div{
