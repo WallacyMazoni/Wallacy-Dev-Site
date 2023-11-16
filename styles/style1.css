@@ -215,13 +215,6 @@
     color: antiquewhite;
   }
 
-  .tittle-3{
-    margin-top: 14px;
-    color: rgb(241, 237, 231);
-    justify-items: center;
-    align-items: center;
-  }
-
   .main-section-text{
     margin-top: 0px;
     display: flex;
