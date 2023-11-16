@@ -62,10 +62,6 @@
   }
   
   @media (max-width: 999px) {
-    body {
-      overflow-x:hidden;
-      overflow-y:hidden;
-    }
     .nav-list {
       position: absolute;
       top: 8vh;
@@ -184,8 +180,34 @@
     cursor: pointer;
   }
 
+  .comp-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
   .second-div{
+    display: flex;
+    flex-direction: column;
     background: url("/src/bg-2.jpg") no-repeat center center;
     background-size: cover;
     height: 92vh;
+  }
+
+  .tittle-2{
+    margin-top: 48px;
+    color: antiquewhite;
+  }
+
+  .tittle-3{
+    margin-top: 14px;
+    color: rgb(241, 237, 231);
+    justify-items: center;
+    align-items: center;
+  }
+
+  .div-work{
+    display: flex;
+    flex-direction: column;
   }
