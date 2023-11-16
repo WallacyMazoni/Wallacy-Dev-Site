@@ -65,7 +65,7 @@
   @media (max-width: 999px) {
     .main{
       overflow-x: hidden;
-      position: absolute;
+      position: fixed;
     }
     .nav-list {
       position: absolute;
@@ -88,7 +88,7 @@
       display: block;
     }
     footer{
-      position:absolute;
+      position:fixed;
       display: flex;
       flex-direction: column;
       overflow-x: hidden;
@@ -171,6 +171,15 @@
     font-size:xx-large;
   }
 
+   .tittle-sk{
+    color: #06af00;
+    text-transform: uppercase;
+    background-color: rgb(26, 27, 29);
+    border-radius: 4px;
+    padding: 8px;
+    margin: 20px;
+  }
+
   .simple-divisor{
     background-color: #23232e;
     color: #23232e;
@@ -179,7 +188,7 @@
   .button-green{
     border-radius: 12px;
     padding: 12px;
-    margin-bottom: 280px;
+    margin-bottom: 200px;
     background-color: #55ff4c;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
@@ -211,6 +220,35 @@
     color: rgb(241, 237, 231);
     justify-items: center;
     align-items: center;
+  }
+
+  .main-section-text{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+
+  .img-skills{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    padding-bottom: 90px;
+  }
+
+  .img-sk{
+    height: 50px;
+    padding: 8px;
+    transition: 0.2s;
+  }
+
+   .img-sk:hover{
+    height: 70px;
+    padding: 8px;
+    cursor: pointer;
   }
 
   .div-work{
