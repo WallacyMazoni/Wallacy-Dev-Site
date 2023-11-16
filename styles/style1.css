@@ -41,7 +41,6 @@
   .nav-list {
     list-style: none;
     display: flex;
-
   }
   
   .nav-list li {
@@ -66,6 +65,8 @@
     .main{
       overflow-x: hidden;
       position: fixed;
+      max-width: 100dvw;
+      max-height: 100dvh;
     }
     .nav-list {
       position: absolute;
@@ -188,7 +189,7 @@
   .button-green{
     border-radius: 12px;
     padding: 12px;
-    margin-bottom: 200px;
+    margin-bottom: 180px;
     background-color: #55ff4c;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
