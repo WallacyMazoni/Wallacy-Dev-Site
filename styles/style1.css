@@ -109,8 +109,8 @@
       align-content: center;
       justify-content: center;
     }
-    img{
-      height:250px;
+    .img-carde{
+      width: 12px;
     }
 
   }
