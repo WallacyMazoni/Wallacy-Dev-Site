@@ -228,6 +228,7 @@
   }
 
   .text-card{
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
     color: antiquewhite;
     text-decoration: none;
     text-decoration-line: none;
@@ -270,4 +271,12 @@
       width: 120px;
       height: 120px;
     }
+  }
+
+  button{
+    background-color: transparent;
+    border-style: none;
+  }
+  button:hover{
+    cursor: pointer;
   }
