@@ -8,7 +8,7 @@
     padding: 0;
   }
   
-  a {
+  a{
     color: #55ff4c;
     text-decoration: none;
     transition: 0.3s;
@@ -330,4 +330,15 @@
     border-radius: 6px;
     opacity: 1;
     cursor: pointer;
+  }
+
+  .title-section{
+    padding-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title-section-text{
+    color: #55ff4c;
   }

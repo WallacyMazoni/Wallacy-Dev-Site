@@ -1,15 +1,16 @@
 * {
     margin: 0;
     padding: 0;
+    text-decoration: none;
   }
   
-  a {
+  .achor {
     color: #55ff4c;
     text-decoration: none;
     transition: 0.3s;
   }
   
-  a:hover {
+  .achor:hover {
     color: #55ff4c;
     text-decoration: none;
     opacity: 0.6;
@@ -19,6 +20,15 @@
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
+    color: #55ff4c;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  .logo:hover{
+    color: #55ff4c;
+    text-decoration: none;
+    opacity: 0.6;
   }
   
   nav {
@@ -216,6 +226,12 @@
     justify-content: center;
     align-items: center;
   }
+
+  .text-card{
+    color: antiquewhite;
+    text-decoration: none;
+    text-decoration-line: none;
+  }
    
   .card:hover{
     cursor: pointer;
@@ -227,6 +243,10 @@
     border-style: groove;
     border-width: 0.5px;
     transition: 0.3s;
+
+    .text-card{
+      color:#23232e;
+    }
   }
 
   .img-card{
