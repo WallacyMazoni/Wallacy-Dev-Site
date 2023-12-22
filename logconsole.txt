@@ -1,6 +1,9 @@
 ####### LOG DE DESENVOLVIMENTO #######
 
-*=========== REQUISITOS ===========*
+########################################
+#*\=========== REQUISITOS ===========/*#
+########################################
+
 1- Página Home responsiva.
 2- Página Home deve conter destaques e skills.
 3- Páginas: About/Apis/Apps/Contact/cv/games/landingpages/projects/sites/soft.
@@ -10,9 +13,10 @@
 7- Todas as folhas de estilo devem estar na pasta Styles.
 8- O código deve estar bem comentado e com a extensão do GitLens ativada.
 9- Os commits devem ser nomeados com (ano:mês:dia:hora:minuto | ex: 2312201040) e as descrições das alterações.
+####################################################
+#\*=========== LOG DE DESENVOLVIMENTO ===========/*#
+####################################################
 
-*=========== LOG DE DESENVOLVIMENTO ===========*
-
-= Commit =  = Descrição =
+= Commit =   = Descrição =
 
 2312201800 - Initial Commit.

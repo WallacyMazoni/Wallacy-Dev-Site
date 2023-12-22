@@ -219,7 +219,7 @@
     padding: 8px;
     width: 170px;
     height: 150px;
-    background-color: #23232e;
+    background-color: #1b5b2b; 
     border-radius: 12px;
     display: flex;
     flex-direction: column;
@@ -239,16 +239,18 @@
     color: #23232e;
     width: 175px;
     height: 155px;
-    background-color: #19b305ad;
+    background-color: #25c510ad;
     border-radius: 12px;
     border-style: groove;
     border-width: 0.5px;
     transition: 0.3s;
 
     .text-card{
-      color:#23232e;
+      color:#e6e6e6;
     }
   }
+ 
+  
 
   .img-card{
     height: 80px;
@@ -271,6 +273,14 @@
       width: 120px;
       height: 120px;
     }
+    .card-off{
+      width: 110px;
+      height: 110px;
+    }
+    .card-off:hover{
+      width: 120px;
+      height: 120px;
+    }
   }
 
   button{
@@ -279,4 +289,41 @@
   }
   button:hover{
     cursor: pointer;
+  }
+
+  .card-off{
+    color: rgb(101, 101, 101);
+    margin: 20px;
+    padding: 8px;
+    width: 170px;
+    height: 150px;
+    background-color: #464646;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-card-off{
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    color: rgb(163, 163, 163);
+    text-decoration: none;
+    text-decoration-line: none;
+  }
+   
+  .card-off:hover{
+    cursor: pointer;
+    color: #000000;
+    width: 175px;
+    height: 155px;
+    background-color: #1f5218ad;
+    border-radius: 12px;
+    border-style: groove;
+    border-width: 0.5px;
+    transition: 0.3s;
+
+    .text-card{
+      color:#c3c3c3;
+    }
   }
