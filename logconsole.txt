@@ -16,7 +16,7 @@
 ####################################################
 #\*=========== LOG DE DESENVOLVIMENTO ===========/*#
 ####################################################
-
 = Commit =   = Descrição =
 
 2312201800 - Initial Commit.
+2312221216 - Blocked invalid options in the "pages.html". Only the "Software" button will be able.
