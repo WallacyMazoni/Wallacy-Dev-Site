@@ -327,3 +327,31 @@
       color:#c3c3c3;
     }
   }
+
+  .email{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    padding-top: 48px;
+  }
+
+  .img-sk{
+    margin-top: 12px;
+    height: 50px;
+    padding: 8px;
+    transition: 0.2s;
+  }
+
+   .img-sk:hover{
+    height: 70px;
+    padding: 8px;
+    cursor: pointer;
+  }
+
+  .wpp-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
