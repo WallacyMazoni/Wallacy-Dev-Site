@@ -256,7 +256,7 @@
     height: 80px;
     padding: 8px;
   }
-  @media (max-height: 720px){
+  @media (max-height: 999px){
     .text-card{
       font-size: smaller;
     }
