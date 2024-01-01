@@ -20,3 +20,6 @@
 
 2312201800 - Initial Commit.
 2312221216 - Blocked invalid options in the "pages.html". Only the "Software" button will be able.
+2312231015 - Remove the CV page, turned off for future commits.
+2312231103 - Add the Contact page.
+2312231110 - Bug correction of the cards in the Projects page.
