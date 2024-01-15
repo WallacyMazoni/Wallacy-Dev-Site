@@ -76,6 +76,7 @@
     }
     .nav-list {
       position: absolute;
+      display: none;
       top: 8vh;
       right: 0;
       width: 50vw;
@@ -133,6 +134,7 @@
     transform: translateX(0);
     overflow-x: hidden;
     overflow-y: hidden;
+    display: block;
   }
   
   @keyframes navLinkFade {
