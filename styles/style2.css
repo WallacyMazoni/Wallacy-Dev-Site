@@ -48,6 +48,7 @@
     height: 92vh;
     overflow-x: hidden;
     animation: colors 8s ease infinite;
+    padding-bottom: 128px;
   }
 
   @keyframes colors{
