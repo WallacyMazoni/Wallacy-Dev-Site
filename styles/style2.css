@@ -48,7 +48,6 @@
     height: 92vh;
     overflow-x: hidden;
     animation: colors 8s ease infinite;
-    padding-bottom: 128px;
   }
 
   @keyframes colors{
@@ -100,8 +99,9 @@
     .main{
       overflow-x: hidden;
       position: fixed;
-      max-width: 100dvw;
-      max-height: 100dvh;
+      max-width: 180dvw;
+      max-height: 180dvh;
+      padding-bottom: 180px;
     }
 
     .nav-list {
@@ -142,6 +142,10 @@
     }
     .img-carde{
       width: 12px;
+    }
+
+    .modules{
+      padding-bottom: 60px;
     }
 
   }
